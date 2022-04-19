@@ -1,0 +1,565 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header .first-section {
+  background-color: #fff;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+
+header .first-section ul {
+  list-style-type: none;
+}
+header .first-section a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+header .first-section a:hover {
+  color: #ff880e;
+}
+
+header .logo {
+  width: 28%;
+  float: left;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+header ul .mobile {
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  line-height: 120px;
+}
+
+header ul .message {
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  line-height: 120px;
+}
+
+header ul .btn-1 {
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  line-height: 120px;
+}
+
+header .first-section button {
+  background-color: #ff880e;
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+}
+header .btn-1 button:hover {
+  background-color: #000;
+}
+
+header .second-section {
+  width: 100%;
+  height: 70px;
+  background-color: #ff880e;
+}
+header .second-section ul {
+  list-style-type: none;
+}
+header .second-section ul li {
+  display: inline-block;
+
+  margin-left: 3%;
+  line-height: 70px;
+}
+
+header .second-section ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+header .second-section ul li a:hover {
+  color: #fff;
+}
+
+header .second-section ul li .different-color-header {
+  color: #fff;
+}
+header .second-section ul li a img {
+  background-color: #000;
+  padding: 5px;
+}
+
+header .home {
+  background-image: url(../images/slide_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+}
+
+header .header-title h1 {
+  font-size: 100px;
+  color: #fff;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.home .btn-2 {
+  background-color: transparent;
+  width: 230px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.exchange {
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+
+.exchange .exchange-image {
+  background-image: url(../images/img1.png);
+  background-position: top right;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.exchange-content .line-1 {
+  width: 45%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-top: 6px;
+}
+
+.exchange .exchange-content {
+  width: 40%;
+  float: right;
+  margin-right: 4%;
+}
+.exchange-content h2 {
+  margin-top: 80px;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.exchange-content h2 span {
+  color: #ff880e;
+}
+
+.exchange-content p {
+  margin-top: 45px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.exchange-content .btn-3 {
+  background-color: transparent;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #ff880e;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+
+.exchange-content .btn-3:hover {
+  color: #ff880e;
+}
+
+.services h2 {
+  margin-top: 55px;
+  font-size: 45px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.services .line-2 {
+  width: 20%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-left: 40%;
+  margin-bottom: 35px;
+}
+.services {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+
+  margin-bottom: 70px;
+}
+
+.services .safe-services {
+  width: 23%;
+  float: left;
+  margin-left: 2%;
+}
+
+.services .telphone-services {
+  width: 23%;
+  float: left;
+  margin-left: 2%;
+}
+
+.services .wallet-services {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
+.services .support-services {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.safe-services h3,
+.telphone-services h3,
+.wallet-services h3,
+.support-services h3 {
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -10px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 15px -8px;
+}
+
+.services .btn-4 {
+  background-color: transparent;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #ff880e;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-left: 43%;
+}
+
+.apply {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.apply .apply-image {
+  background-image: url(../images/img2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.apply .apply-content {
+  width: 50%;
+  float: right;
+  height: 100%;
+  background-color: #2a2a2a;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+.apply .apply-content h2 {
+  margin-top: 70px;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.apply-content h2 span {
+  color: #ff880e;
+}
+.apply-content .line-3 {
+  width: 45%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-top: 6px;
+}
+.apply .apply-content p {
+  margin-top: 45px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.apply .apply-content button {
+  width: 190px;
+  height: 50px;
+  border: 1px solid #ff880e;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+.apply .apply-content button:hover {
+  color: #ff880e;
+}
+
+.about {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.about .about-content h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.about-content .line-4 {
+  width: 30%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-top: 6px;
+}
+
+.about .about-image {
+  width: 45%;
+  height: 100%;
+  float: right;
+}
+.about .about-content p {
+  margin-top: 45px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.about .about-content .btn-5 {
+  width: 190px;
+  height: 50px;
+  border: 1px solid #ff880e;
+  color: #000;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.about .about-content .btn-5:hover {
+  color: #ff880e;
+}
+
+.about .about-content {
+  width: 47%;
+  float: left;
+  margin-left: 80px;
+}
+
+.news h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.news .line-5 {
+  width: 20%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-left: 40%;
+  margin-bottom: 35px;
+}
+
+.news {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+
+  margin-bottom: 80px;
+}
+
+.bitcoin-news,
+.ethereum-news,
+.light-news {
+  float: left;
+  width: 29%;
+  margin-left: 3%;
+  position: relative;
+}
+
+.bitcoin-news h3,
+.ethereum-news h3,
+.light-news h3 {
+  background-color: #ff880e;
+  font-size: 25px;
+  text-align: center;
+  bottom: 3px;
+  width: 100%;
+  height: 120px;
+  color: #fff;
+  position: absolute;
+  box-shadow: rgb(0, 0, 0) 0px 0px 15px -8px;
+}
+
+.bitcoin-news h3 span,
+.ethereum-news h3 span,
+.light-news h3 span {
+  font-size: 14px;
+}
+.contact {
+  margin-top: 55px;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.contact .line-6 {
+  width: 20%;
+  height: 8px;
+  background-color: #ff880e;
+  display: block;
+  margin-left: 40%;
+  margin-bottom: 100px;
+}
+.contact .sign-up {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/contact_bg.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contact .sign-up input {
+  width: 50%;
+  height: 65px;
+  background-color: #000;
+  margin-bottom: 2%;
+  font-size: 17px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  border: none;
+}
+
+.contact .sign-up textarea {
+  background-color: #000;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.contact .sign-up .btn-4 {
+  background-color: #fff;
+  width: 200px;
+  height: 60px;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 15px;
+  border: none;
+}
+.contact .sign-up .btn-4:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.last-section {
+  width: 100%;
+  height: 350px;
+  background-color: #3a1e02;
+  overflow: hidden;
+  padding-top: 70px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.letter-footer h2,
+.contact-footer h2,
+.links-footer h2 {
+  color: #fff;
+}
+
+.letter-footer p {
+  line-height: 2;
+}
+.letter-footer button {
+  color: #fff;
+  width: 40%;
+  height: 35px;
+  background-color: #ff880e;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.letter-footer input {
+  width: 70%;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  padding-left: 13px;
+  text-transform: capitalize;
+}
+.links-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+.letter-footer .line-8,
+.contact-footer .line-9,
+.links-footer .line-7 {
+  width: 100%;
+  height: 4px;
+  background-color: #ff880e;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.links-footer ul,
+.contact-footer ul,
+.letter-footer ul {
+  list-style-type: none;
+}
+
+.logo-footer,
+.contact-footer,
+.letter-footer,
+.links-footer {
+  width: 20%;
+  float: left;
+  margin-left: 3%;
+}
+.logo-footer li,
+.contact-footer li,
+.letter-footer li,
+.links-footer li {
+  margin-bottom: 15px;
+}
+.logo-footer {
+  width: 21%;
+  border: 4px dashed #fff;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+  background-color: #532a02;
+  font-size: 18px;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+}
